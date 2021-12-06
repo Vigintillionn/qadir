@@ -69,7 +69,7 @@ class TitleScreen:
     start_rect = start_text.get_rect(midleft = (300, 500));
     WINDOW.blit(start_text, start_rect);
 
-    start_text = self.font_small.render("Door Yarne Ramakers", True, "#967A72");
+    start_text = self.font_small.render("Door Vigintillion", True, "#967A72");
     start_rect = start_text.get_rect(midleft = (450, 680));
     WINDOW.blit(start_text, start_rect);
 
